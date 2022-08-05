@@ -1,0 +1,364 @@
+/*--------------------Section-2-Below-----------------*/
+.section-2 {
+	width: 100%;
+	background-position: center;
+	background-attachment: scroll;
+	background-color: rgba(5, 5, 5, 1.0);
+	border: none;
+	box-sizing: inherit;
+	font-family: sans-serif;
+	padding: 40px 0;
+}
+
+.subsec-title {
+	font-size: 2.2em;
+	font-weight: lighter;
+	margin: 0;
+	padding: 10px 10px 10px 25px;
+	box-sizing: inherit;
+}
+
+
+.seemore {
+	text-align: right;
+	margin: 0 40px 0 0;
+	font-size: 1.0em;
+	color: grey;
+	float: right;
+	cursor: pointer;
+}
+
+.seemore:hover {
+	color: brown;
+}
+
+.seemore a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.seemore abbr {
+	text-decoration: none;
+}
+
+@media (max-width: 400px) {
+	.subsec-title {
+		font-size: 2em;
+		padding: 10px;
+	}
+
+	.seemore {
+		margin: 0 20px 0 0;
+	}
+}
+
+
+
+
+/*-------------music-box-below----------------*/
+.music-box-cont {
+	width: 95%;
+	padding: 10px 20px 20px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: row;
+	box-sizing: inherit;
+	background-color: transparent;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	scroll-behavior: smooth;
+}
+
+.music-box-cont::-webkit-scrollbar {
+	height: 5px;
+}
+
+.music-box-cont::-webkit-scrollbar-track {
+	width: 10px;
+}
+
+.music-box-cont::-webkit-scrollbar-thumb {
+	background-color: rgba(17, 17, 17, 1);
+	border-radius: 5px;
+}
+
+.music-box-cont::-moz-scrollbar {
+	height: 5px;
+}
+
+music-box-cont::-moz-scrollbar-track {
+	width: 10px;
+}
+
+.music-box-cont::-moz-scrollbar-thumb {
+	background-color: rgba(17, 17, 17, 1);
+	border-radius: 5px;
+}
+
+
+
+.music-box {
+	display: block;
+	justify-content: center;
+	height: 270px;
+	min-width: 155px;
+	max-width: 155px;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0 20px 20px 20px;
+	background-color: rgba(25, 25, 25, 1.0);
+	color: white;
+	border: 3px solid transparent;
+}
+
+@media (max-width: 1100px) {
+	.music-box {
+		margin: 0 10px 10px 10px;
+	}
+}
+
+.music-box:hover {
+	border: 3px solid brown;
+	box-shadow: 0 2px 10px black;
+	transition: 300ms linear;
+}
+
+.music-box div:nth-child(1) {
+	width: 100%;
+	height: 200px;
+	padding: 5px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.music-box div:nth-child(2) {
+	width: 100%;
+	height: 70px;
+	font-size: 0.7em;
+	font-weight: lighter;
+	display: block;
+	background-color: inherit;
+	box-sizing: border-box;
+	cursor: pointer;
+	color: inherit;
+	padding: 5px;
+}
+
+.ms-th {
+	padding: 0;
+	margin: 0;
+	height: 30%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: ;
+	width: 90%;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+
+.ms-td {
+	padding: 0;
+	margin: 0;
+	height: 70%;
+	overflow: hidden;
+	display: -webkit-box; 
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	width: 90%;
+}
+
+.music-box h3 {
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font-size: 1.4em;
+}
+
+.music-box p {
+	font-weight: lighter;
+	font-size: 1.2em;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	color: silver;
+}
+
+.music-box img {
+	height: 2em;
+	width: 2em;
+	cursor: pointer;
+	background-color: grey;
+	border: none;
+	border-radius: 5px;
+	padding: 0 2px;
+}
+
+.music-box img:hover {
+	background-color: brown;
+	box-shadow: 0 2px 2px black;
+}
+
+.music-box div:nth-child(1) {
+	background-image: url(../../images/sm-bg-9.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: scroll;
+	background-size: 100%;
+}
+
+
+/*---------------------Section-3-Below------------------*/
+/*----------section-3-1-below------------*/
+.section-3-1 {
+	width: 100%;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 0;
+}
+
+
+
+.sec-3-1-con-1 {
+	height: 600px;
+	width: 40%;
+	background-color: transparent;
+	background-image: url(../../images/sm-bg-17.jpg);
+	background-size: 130%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.sec-3-1-con-2 {
+	height: 600px;
+	width: 60%;
+}
+
+@media (max-width:  800px) {
+	.sec-3-1-con-1, .sec-3-1-con-2 {
+		min-width: 100%;
+		height: 400px;
+
+	}
+}
+
+@media (max-width: 1100px) {
+	.sec-3-1-con-1, .sec-3-1-con-2 {
+		width: 50%;
+	}
+}
+
+
+/*----------section-3-2-below------------*/
+.section-3-2 {
+	width: 100%;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+.sec-3-2-con-1 {
+	height: 600px;
+	min-width: 60%;	
+}
+
+.sec-3-2-con-2 {
+	height: 500px;
+	width: 40%;
+	background-image: url(../../images/sm-bg-18.jpg);
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+@media (max-width:  800px) {
+	.section-3-2 {
+		flex-wrap: wrap-reverse;
+		padding-top: 0;
+	}
+	.sec-3-2-con-1, .sec-3-2-con-2 {
+		width: 100%;
+		height: 300px;
+	}
+
+	.sec-3-2-con-2 {
+		border-radius: 0;
+		background-size: ;
+	}
+}
+
+@media (max-width: 1100px) {
+	.sec-3-2-con-1, .sec-3-2-con-2 {
+		min-width: 50%;
+		height: 400px;
+	}
+}
+
+
+/*----------section-3-3-below------------*/
+.section-3-3 {
+	height: 700px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin: 0;
+	background-color: rgba(17, 17, 17, 1.0);
+	padding: 0 0 0 100px;
+	box-sizing: border-box;
+
+}
+
+.sec-3-3-con-1 {
+	height: 600px;
+	width: 50%;
+	background-color: rgba(30, 30, 30, 0.1);
+	color: white;
+	border-radius: 100px;
+	box-shadow: 1px 1px 10px black;
+}
+
+
+@media (max-width:  800px) {
+	.section-3-3  {
+		width: 100%;
+		height: 300px;
+		padding: 0;
+		justify-content: center;
+	}
+
+	.sec-3-3-con-1 {
+		width: 95%;
+		max-height: 300px;
+		border-radius: 0 20px 20px 20px;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 1100px) {
+	.section-3-3 {
+		height: 500px;
+		background-size: cover;
+	}
+
+	.sec-3-3-con-1 {
+		height: 400px;
+		width: 60%;
+	}
+}
+
