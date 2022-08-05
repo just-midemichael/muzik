@@ -17,7 +17,7 @@ body {
 }
 
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
 	body {
 		background-image: url(../images/sm-bg-12.jpg);
 		background-size: 100vh;
@@ -56,7 +56,7 @@ body {
 	font-size: 3.0em;	
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
 	.header-cont {
 		background-color: white;
 		color: brown;
@@ -102,7 +102,7 @@ body {
 	margin-right: 40px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
 	.nav-cont {
 		display: none;
 	}
@@ -148,7 +148,7 @@ body {
 	display: none;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
 	.ham-menu-cont {
 		height: 30px;
 		width: 100%;
@@ -206,7 +206,7 @@ body {
 	display: none;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
 	#menu-cont {
 		height: 100vh;
 		min-height: 100%;
@@ -329,7 +329,7 @@ body {
 
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
 	.lt-cont {
 		font-size: 3em;
 	}
@@ -443,7 +443,7 @@ body {
 	padding: 0;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
 	.wd-cont {
 		font-size: 1.6em;
 	}
@@ -514,7 +514,7 @@ body {
 }
 
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
 	.section-1 {
 		min-height: 30em;
 		background-size: 200%;
@@ -629,7 +629,7 @@ footer {
 	box-sizing: inherit;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
 	footer {
 		background-image: url(../images/sm-bg-10.jpg);
 		background-size: 300%;
@@ -757,7 +757,7 @@ footer {
 	}
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
 	.rpd {
 		width: 32%;
 	}
