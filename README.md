@@ -1,0 +1,2 @@
+# muzik
+Streaming platform project
